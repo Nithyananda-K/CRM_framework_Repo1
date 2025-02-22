@@ -57,6 +57,7 @@ public class SampleReportTest {
 		}else {
 			test.log(Status.FAIL, "contact is not created");
 			test.addScreenCaptureFromBase64String(filepath, "ErrorFile");
+			
 		}
 	}
 }
