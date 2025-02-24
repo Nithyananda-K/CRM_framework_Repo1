@@ -13,7 +13,6 @@ public class JsonUtility {
 	
 	public String getDataFromJsonFile(String key) throws Throwable {
 		
-		
 		String jPath = "./configAppData/appCommonData.json";
 		FileReader fileR =new FileReader(jPath);
 		
@@ -28,5 +27,6 @@ public class JsonUtility {
 		return data;
 	}
 }
+
 
 
