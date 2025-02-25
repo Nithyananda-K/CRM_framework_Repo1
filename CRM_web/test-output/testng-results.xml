@@ -2,16 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-24T12:33:57 IST" name="Default suite" finished-at="2025-02-24T12:33:58 IST" duration-ms="45">
+  <suite started-at="2025-02-25T12:22:32 IST" name="Default suite" finished-at="2025-02-25T12:23:21 IST" duration-ms="49673">
     <groups>
     </groups>
-    <test started-at="2025-02-24T12:33:57 IST" name="Default test" finished-at="2025-02-24T12:33:58 IST" duration-ms="45">
-      <class name="Programs_for_interview.print_num_1_to_10">
-        <test-method signature="wLoop()[pri:0, instance:Programs_for_interview.print_num_1_to_10@4135c3b]" started-at="2025-02-24T12:33:58 IST" name="wLoop" finished-at="2025-02-24T12:33:58 IST" duration-ms="13" status="PASS">
+    <test started-at="2025-02-25T12:22:32 IST" name="Default test" finished-at="2025-02-25T12:23:21 IST" duration-ms="49673">
+      <class name="com.crmweb.contact_test.V_Tigor_Cont_Case_2_test">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:22:31 IST" name="configBS" finished-at="2025-02-25T12:22:32 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wLoop -->
-      </class> <!-- Programs_for_interview.print_num_1_to_10 -->
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:22:32 IST" name="configBC" finished-at="2025-02-25T12:22:35 IST" duration-ms="3763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:22:35 IST" name="configBM" finished-at="2025-02-25T12:23:02 IST" duration-ms="26292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="decreateContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:23:02 IST" name="decreateContact_withDate_test" finished-at="2025-02-25T12:23:18 IST" duration-ms="16483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decreateContact_withDate_test -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:23:18 IST" name="configAM" finished-at="2025-02-25T12:23:20 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:23:20 IST" name="configAC" finished-at="2025-02-25T12:23:21 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_Case_2_test@4c12331b]" started-at="2025-02-25T12:23:21 IST" name="configAS" finished-at="2025-02-25T12:23:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crmweb.contact_test.V_Tigor_Cont_Case_2_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
