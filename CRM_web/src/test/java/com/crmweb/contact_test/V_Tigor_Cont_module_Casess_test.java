@@ -34,7 +34,7 @@ public class V_Tigor_Cont_module_Casess_test extends BaseClass {
 		SoftAssert as= new SoftAssert();
 		// verify header msg Expected Result
 		String header_info = driver.findElement(By.xpath("//span[@class= 'dvHeaderText']")).getText();
-		boolean status = header_info.contains("replace");
+		boolean status = header_info.contains(lastName);
 //		Assert.assertEquals(status, true);                  // hard assert
 		as.assertEquals(status, true);                     // soft assert
 		

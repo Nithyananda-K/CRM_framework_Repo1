@@ -59,7 +59,6 @@ public class V_Tigor_Cont_Case_1_test extends BaseClass {
 		 */
 
 		
-		
 		// verify lastName is saved as Expected
 		String ActualLastName = driver.findElement(By.id("dtlview_Last Name")).getText();
 		SoftAssert softas= new SoftAssert();

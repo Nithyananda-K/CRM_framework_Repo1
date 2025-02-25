@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crmweb.contact_test.V_Tigor_Cont_Case_1_test">
+      <class name="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test">
         <methods>
           <include name="createContact_withName_test"/>
           <include name="configBM"/>
@@ -13,7 +13,7 @@
           <include name="configAC"/>
           <include name="configAS"/>
         </methods>
-      </class> <!-- com.crmweb.contact_test.V_Tigor_Cont_Case_1_test -->
+      </class> <!-- com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

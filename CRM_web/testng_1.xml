@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.crmweb.contact_test.V_Tigor_Cont_Case_1_test"/>
-      <class name="com.crmweb.contact_test.V_Tigor_Cont_Case_2_test"/>
+      <class name="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
