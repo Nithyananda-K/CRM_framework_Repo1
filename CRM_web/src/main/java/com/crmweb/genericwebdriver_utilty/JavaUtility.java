@@ -91,7 +91,7 @@ public class JavaUtility {
 		System.out.println("------------------------------------");
 //		java_date_time();
 //		System.out.println(timestamp());
-		java_pgm_get_timestamp();
+//		java_pgm_get_timestamp();
 		takescreenshot();
 	}
 }

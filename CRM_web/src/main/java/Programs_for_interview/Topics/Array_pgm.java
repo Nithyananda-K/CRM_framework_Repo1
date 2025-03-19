@@ -1,4 +1,4 @@
-package Programs_for_interview;
+package Programs_for_interview.Topics;
 
 public class Array_pgm {
 
@@ -28,11 +28,21 @@ public class Array_pgm {
 	
 	public static void arrstring() {
 		String[] str= new String[4];
+		
+		str[0]= "Virat";
+		str[1]= "dravid";
+		str[2]= "sachin";
+		str[3]= "yuvraj";
+		
+		for(String name: str) {
+			System.out.println(name);
+		}
 	}
 	
-	
+
 	public static void main(String[] args) {
-		arrint();
+//		arrint();
+		arrstring();
 	}
 	
 }

@@ -7,10 +7,7 @@ import org.json.simple.parser.JSONParser;
 
 public class JsonUtility {
 	
-	
 //	public static void main(String[] args) throws Throwable {
-		
-	
 	public String getDataFromJsonFile(String key) throws Throwable {
 		
 		String jPath = "./configAppData/appCommonData.json";

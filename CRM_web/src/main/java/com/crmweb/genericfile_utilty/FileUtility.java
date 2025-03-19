@@ -9,7 +9,7 @@ public class FileUtility {
 	public String getDataFromPopertyFile(String key) throws Throwable {
 		
 		String pPath = "./configAppData/commondata.Properties";
-		FileInputStream Pfis = new FileInputStream(new File(pPath));
+		FileInputStream Pfis = new FileInputStream(pPath);
 
 		Properties pObj = new Properties();
 		pObj.load(Pfis);

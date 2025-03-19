@@ -50,7 +50,14 @@ public class BaseClass extends WebDriverUtility {
 	@BeforeClass
 	public void configBC() throws Throwable {
 		System.out.println("===Launch Browser====");
-
+		
+		
+		// We used in below Selenium version-4
+//		String key="WebDriver.chrome,driver";
+//		String value= "./resources/chromedriver.exe";
+//		System.setProperty(key, value);
+		
+		
 		String Browser = flib.getDataFromPopertyFile("browser");   // from property file 
 //		String Browser = browser;                                   // from xml parameter 
 

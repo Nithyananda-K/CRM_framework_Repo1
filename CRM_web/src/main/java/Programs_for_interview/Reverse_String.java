@@ -15,8 +15,8 @@ public class Reverse_String {
 	}
 
 	public static void StringBuilder() {
-		String str = "World";
-		StringBuilder sb = new StringBuilder(str);
+		String str = "World";                               // String is immutable
+		StringBuilder sb = new StringBuilder(str);          // StringBuilder is mutable 
 		System.out.println(sb.reverse());
 	}
 

@@ -1,480 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="16" passed="8" failed="2" skipped="2">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-25T15:47:32 IST" name="Suite" finished-at="2025-02-25T15:50:51 IST" duration-ms="198312">
+  <suite started-at="2025-03-19T12:17:20 IST" name="Suite" finished-at="2025-03-19T12:19:44 IST" duration-ms="144670">
     <groups>
       <group name="RegressionTest">
-        <method signature="V_Tigor_Cont_module_Casess_test.createContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" name="createContact_withDate_test" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
-        <method signature="V_Tigor_Cont_module_Casess_test.verifyContactIntegrationTest()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" name="verifyContactIntegrationTest" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
-        <method signature="V_Tigor_Org_module_Casess_test.createOrg_with_phoneNumber_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" name="createOrg_with_phoneNumber_test" class="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
-        <method signature="V_Tigor_Org_module_Casess_test.createOrg_withindustry_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" name="createOrg_withindustry_test" class="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
-        <method signature="V_Tigor_Cont_module_Casess_test.createContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" name="createContact_withDate_test" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
-        <method signature="V_Tigor_Cont_module_Casess_test.verifyContactIntegrationTest()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" name="verifyContactIntegrationTest" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
-        <method signature="V_Tigor_Org_module_Casess_test.createOrg_with_phoneNumber_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" name="createOrg_with_phoneNumber_test" class="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
-        <method signature="V_Tigor_Org_module_Casess_test.createOrg_withindustry_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" name="createOrg_withindustry_test" class="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
+        <method signature="V_Tigor_Cont_module_Casess_test.createContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" name="createContact_withDate_test" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
+        <method signature="V_Tigor_Cont_module_Casess_test.verifyContactIntegrationTest()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" name="verifyContactIntegrationTest" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
       </group> <!-- RegressionTest -->
       <group name="smokeTest">
-        <method signature="V_Tigor_Cont_module_Casess_test.createContact_withName_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" name="createContact_withName_test" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
-        <method signature="V_Tigor_Org_module_Casess_test.createOrg_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" name="createOrg_test" class="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
-        <method signature="V_Tigor_Cont_module_Casess_test.createContact_withName_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" name="createContact_withName_test" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
-        <method signature="V_Tigor_Org_module_Casess_test.createOrg_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" name="createOrg_test" class="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
+        <method signature="V_Tigor_Cont_module_Casess_test.createContact_withName_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" name="createContact_withName_test" class="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2025-02-25T15:47:32 IST" name="TestRunner-Chrome" finished-at="2025-02-25T15:49:53 IST" duration-ms="140260">
-      <class name="com.crmweb.org_test.V_Tigor_Org_module_Casess_test">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:18 IST" name="configBC" finished-at="2025-02-25T15:49:19 IST" duration-ms="1350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:19 IST" name="configBM" finished-at="2025-02-25T15:49:43 IST" duration-ms="23900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:43 IST" name="createOrg_test" finished-at="2025-02-25T15:49:50 IST" duration-ms="7229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:50 IST" name="configAM" finished-at="2025-02-25T15:49:52 IST" duration-ms="2000" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:52 IST" name="configBM" finished-at="2025-02-25T15:49:53 IST" duration-ms="410" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0b4811303d3660a58cc15781fc75533, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\Nithya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c0b4811303d3660a58cc15781fc75533]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0b4811303d3660a58cc15781fc75533, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\Nithya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c0b4811303d3660a58cc15781fc75533
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1063)
-at com.crmweb.objectrepository_utility.LoginPage.loginToApp(LoginPage.java:61)
-at com.crmweb.base_test.BaseClass.configBM(BaseClass.java:81)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:574)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg_with_phoneNumber_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:53 IST" name="createOrg_with_phoneNumber_test" finished-at="2025-02-25T15:49:53 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0b4811303d3660a58cc15781fc75533, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\Nithya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c0b4811303d3660a58cc15781fc75533]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0b4811303d3660a58cc15781fc75533, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\Nithya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c0b4811303d3660a58cc15781fc75533
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1063)
-at com.crmweb.objectrepository_utility.LoginPage.loginToApp(LoginPage.java:61)
-at com.crmweb.base_test.BaseClass.configBM(BaseClass.java:81)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:574)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg_with_phoneNumber_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:53 IST" name="configAM" finished-at="2025-02-25T15:49:53 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:53 IST" name="configBM" finished-at="2025-02-25T15:49:53 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg_withindustry_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:53 IST" name="createOrg_withindustry_test" finished-at="2025-02-25T15:49:53 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0b4811303d3660a58cc15781fc75533, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\Nithya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c0b4811303d3660a58cc15781fc75533]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
-  (Session info: chrome=133.0.6943.127)
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0b4811303d3660a58cc15781fc75533, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\Nithya\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60302}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60302/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c0b4811303d3660a58cc15781fc75533
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1063)
-at com.crmweb.objectrepository_utility.LoginPage.loginToApp(LoginPage.java:61)
-at com.crmweb.base_test.BaseClass.configBM(BaseClass.java:81)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:781)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:574)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg_withindustry_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:53 IST" name="configAM" finished-at="2025-02-25T15:49:53 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@3bd82cf5]" started-at="2025-02-25T15:49:53 IST" name="configAC" finished-at="2025-02-25T15:49:53 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crmweb.org_test.V_Tigor_Org_module_Casess_test -->
+    <test started-at="2025-03-19T12:17:20 IST" name="Test" finished-at="2025-03-19T12:19:44 IST" duration-ms="144670">
       <class name="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:47:32 IST" name="configBS" finished-at="2025-02-25T15:47:32 IST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:17:19 IST" name="configBS" finished-at="2025-03-19T12:17:20 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:47:32 IST" name="configBC" finished-at="2025-02-25T15:47:35 IST" duration-ms="2441" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:17:20 IST" name="configBC" finished-at="2025-03-19T12:17:28 IST" duration-ms="8143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:47:35 IST" name="configBM" finished-at="2025-02-25T15:47:58 IST" duration-ms="23334" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:17:28 IST" name="configBM" finished-at="2025-03-19T12:18:03 IST" duration-ms="35700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:47:58 IST" name="createContact_withDate_test" finished-at="2025-02-25T15:48:07 IST" duration-ms="8614" status="PASS">
+        <test-method signature="createContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:18:03 IST" name="createContact_withDate_test" finished-at="2025-03-19T12:18:30 IST" duration-ms="26224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContact_withDate_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:48:07 IST" name="configAM" finished-at="2025-02-25T15:48:08 IST" duration-ms="1062" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:18:30 IST" name="configAM" finished-at="2025-03-19T12:18:31 IST" duration-ms="1695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:48:08 IST" name="configBM" finished-at="2025-02-25T15:48:30 IST" duration-ms="22441" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:18:31 IST" name="configBM" finished-at="2025-03-19T12:18:54 IST" duration-ms="22521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createContact_withName_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:48:30 IST" name="createContact_withName_test" finished-at="2025-02-25T15:48:38 IST" duration-ms="7321" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test.createContact_withName_test(V_Tigor_Cont_module_Casess_test.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="createContact_withName_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:18:54 IST" name="createContact_withName_test" finished-at="2025-03-19T12:19:03 IST" duration-ms="8748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContact_withName_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:48:38 IST" name="configAM" finished-at="2025-02-25T15:48:39 IST" duration-ms="1050" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:19:03 IST" name="configAM" finished-at="2025-03-19T12:19:04 IST" duration-ms="1200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:48:39 IST" name="configBM" finished-at="2025-02-25T15:49:01 IST" duration-ms="22303" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:19:04 IST" name="configBM" finished-at="2025-03-19T12:19:24 IST" duration-ms="20627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="verifyContactIntegrationTest()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:49:01 IST" name="verifyContactIntegrationTest" finished-at="2025-02-25T15:49:16 IST" duration-ms="15200" status="PASS">
+        <test-method signature="verifyContactIntegrationTest()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:19:24 IST" name="verifyContactIntegrationTest" finished-at="2025-03-19T12:19:43 IST" duration-ms="18068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactIntegrationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:49:16 IST" name="configAM" finished-at="2025-02-25T15:49:17 IST" duration-ms="947" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:19:43 IST" name="configAM" finished-at="2025-03-19T12:19:44 IST" duration-ms="1132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:49:17 IST" name="configAC" finished-at="2025-02-25T15:49:18 IST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:19:44 IST" name="configAC" finished-at="2025-03-19T12:19:44 IST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@fa4c865]" started-at="2025-02-25T15:50:51 IST" name="configAS" finished-at="2025-02-25T15:50:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@245a26e1]" started-at="2025-03-19T12:19:44 IST" name="configAS" finished-at="2025-03-19T12:19:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test -->
-    </test> <!-- TestRunner-Chrome -->
-    <test started-at="2025-02-25T15:47:32 IST" name="TestRunner-Firefox" finished-at="2025-02-25T15:50:51 IST" duration-ms="198312">
-      <class name="com.crmweb.org_test.V_Tigor_Org_module_Casess_test">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:49:18 IST" name="configBC" finished-at="2025-02-25T15:49:19 IST" duration-ms="1249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:49:19 IST" name="configBM" finished-at="2025-02-25T15:49:42 IST" duration-ms="23130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:49:42 IST" name="createOrg_test" finished-at="2025-02-25T15:49:50 IST" duration-ms="7798" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:49:50 IST" name="configAM" finished-at="2025-02-25T15:49:51 IST" duration-ms="926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:49:51 IST" name="configBM" finished-at="2025-02-25T15:50:13 IST" duration-ms="22099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg_with_phoneNumber_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:50:13 IST" name="createOrg_with_phoneNumber_test" finished-at="2025-02-25T15:50:19 IST" duration-ms="6590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg_with_phoneNumber_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:50:19 IST" name="configAM" finished-at="2025-02-25T15:50:20 IST" duration-ms="918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:50:20 IST" name="configBM" finished-at="2025-02-25T15:50:43 IST" duration-ms="22212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrg_withindustry_test()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:50:43 IST" name="createOrg_withindustry_test" finished-at="2025-02-25T15:50:49 IST" duration-ms="6718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrg_withindustry_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:50:49 IST" name="configAM" finished-at="2025-02-25T15:50:50 IST" duration-ms="1010" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmweb.org_test.V_Tigor_Org_module_Casess_test@7dcf94f8]" started-at="2025-02-25T15:50:50 IST" name="configAC" finished-at="2025-02-25T15:50:51 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crmweb.org_test.V_Tigor_Org_module_Casess_test -->
-      <class name="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:47:32 IST" name="configBC" finished-at="2025-02-25T15:47:35 IST" duration-ms="2442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:47:35 IST" name="configBM" finished-at="2025-02-25T15:47:59 IST" duration-ms="24033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createContact_withDate_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:47:59 IST" name="createContact_withDate_test" finished-at="2025-02-25T15:48:07 IST" duration-ms="8092" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContact_withDate_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:48:07 IST" name="configAM" finished-at="2025-02-25T15:48:08 IST" duration-ms="955" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:48:08 IST" name="configBM" finished-at="2025-02-25T15:48:30 IST" duration-ms="22478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createContact_withName_test()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:48:30 IST" name="createContact_withName_test" finished-at="2025-02-25T15:48:38 IST" duration-ms="7442" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test.createContact_withName_test(V_Tigor_Cont_module_Casess_test.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:136)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:658)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:219)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:923)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:192)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContact_withName_test -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:48:38 IST" name="configAM" finished-at="2025-02-25T15:48:39 IST" duration-ms="943" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:48:39 IST" name="configBM" finished-at="2025-02-25T15:49:01 IST" duration-ms="22641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="verifyContactIntegrationTest()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:49:01 IST" name="verifyContactIntegrationTest" finished-at="2025-02-25T15:49:16 IST" duration-ms="14697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactIntegrationTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:49:16 IST" name="configAM" finished-at="2025-02-25T15:49:17 IST" duration-ms="1039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test@1f2586d6]" started-at="2025-02-25T15:49:17 IST" name="configAC" finished-at="2025-02-25T15:49:18 IST" duration-ms="375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAC -->
-      </class> <!-- com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test -->
-    </test> <!-- TestRunner-Firefox -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

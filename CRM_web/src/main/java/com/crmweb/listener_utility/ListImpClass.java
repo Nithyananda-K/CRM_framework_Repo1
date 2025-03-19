@@ -35,17 +35,17 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 		System.out.println("Report configuration");
 
 		// Spark report config
-		
+
 		String time = new Date().toString().replace(" ", "_").replace(":", "_");
 
-		spark = new ExtentSparkReporter("./AdvanceReport/report_"+time+".html");
+		spark = new ExtentSparkReporter("./AdvanceReport/report_" + time + ".html");
 		spark.config().setDocumentTitle("CRM test suit result");
 		spark.config().setReportName("CRM Reprt");
 		spark.config().setTheme(Theme.DARK);
 
 		report = new ExtentReports();
 		report.attachReporter(spark);
-		
+
 		report.setSystemInfo("OS", "Windows-11");
 		report.setSystemInfo("BROWSER", "CHROME-113");
 
@@ -60,9 +60,8 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 	public void onTestStart(ITestResult result) {
 //		System.out.println("====" + result.getMethod().getMethodName() + "===Start==");
 		test = report.createTest(result.getMethod().getMethodName()); // insert one test case in extend report
-		UtilityclassObject.setTest(test);                              
+		UtilityclassObject.setTest(test);
 		test.log(Status.INFO, result.getMethod().getMethodName() + " ===> STARTED <===");
-		
 
 	}
 
@@ -85,15 +84,15 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 	}
 
 	public void onTestSkipped(ITestResult result) {
-
+		test.log(Status.SKIP, result.getMethod().getMethodName() + " ===> SKIPPED <===");
+		test.log(Status.SKIP, "Reason: " + result.getThrowable()); // Log reason for skipping
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-
+        test.log(Status.WARNING, result.getMethod().getMethodName() + " failed but within success percentage.");
 	}
 
 	public void onTestFailedWithTimeout(ITestResult result) {
-
+        test.log(Status.FAIL, result.getMethod().getMethodName() + " failed due to timeout.");
 	}
-
 }
