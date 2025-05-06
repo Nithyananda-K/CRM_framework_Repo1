@@ -68,7 +68,6 @@ public class ListImpClass implements ITestListener, ISuiteListener {
 	public void onTestSuccess(ITestResult result) {
 //		System.out.println("====" + result.getMethod().getMethodName() + "===End==");
 		test.log(Status.PASS, result.getMethod().getMethodName() + " ===> COMPLETED <===");
-
 	}
 
 	public void onTestFailure(ITestResult result) {

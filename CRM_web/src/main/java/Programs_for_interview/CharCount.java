@@ -7,14 +7,25 @@ import java.util.Map.Entry;
 public class CharCount {
 
 	public static void main(String[] args) {
-		String str = "automation";
-		HashMap<Character, Integer> countMap = new HashMap<>();
+
+		String str = "Galaxyg";
+
+		HashMap<Character, Integer> charcount = new HashMap<Character, Integer>();
 
 		for (char ch : str.toCharArray()) {
-			countMap.put(ch, countMap.getOrDefault(ch, 0) + 1);
+			charcount.put(ch, charcount.getOrDefault(ch, 0) + 1);
 		}
 
-		System.out.println(countMap);
+		System.out.println(charcount);
 
+		StringBuilder result = new StringBuilder();
+
+		for (Map.Entry<Character, Integer> entry : charcount.entrySet()) {
+			result.append(entry.getKey()).append(entry.getValue());
+		}
+		System.out.println(result);
 	}
 }
+
+//
+//}

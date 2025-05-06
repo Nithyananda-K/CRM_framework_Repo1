@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crmweb.contact_test.V_Tigor_Cont_module_Casess_test"/>
+      <class name="com.crmweb.org_test.V_Tigor_Org_module_Casess_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
