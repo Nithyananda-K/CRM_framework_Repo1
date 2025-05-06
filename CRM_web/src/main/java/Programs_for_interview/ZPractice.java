@@ -21,7 +21,7 @@ public class ZPractice {
 		for (Map.Entry<Character, Integer> entry : charcount.entrySet()) {
 			sb.append(entry.getKey()).append(entry.getValue());
 		}
-		System.out.println(sb);
+		System.out.println(sb);  
 	}
 
 	static void occurence_char_in_string() {
