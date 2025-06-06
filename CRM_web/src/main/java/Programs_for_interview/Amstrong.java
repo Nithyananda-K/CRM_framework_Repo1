@@ -3,9 +3,9 @@ package Programs_for_interview;
 public class Amstrong {
 
 	public static void main(String[] args) {
-		int no = 153;
+		int no = 153;                                      //  1+125+27=153
 		int ams= 0;
-		int copy= no;
+		int copy= no; 
 		
 		while(no!= 0) {
 			int digit = no%10;
@@ -20,4 +20,3 @@ public class Amstrong {
 		}
 	}
 }
-

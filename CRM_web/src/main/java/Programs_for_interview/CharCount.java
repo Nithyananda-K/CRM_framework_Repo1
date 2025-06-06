@@ -10,7 +10,7 @@ public class CharCount {
 
 		String str = "Galaxyg";
 
-		HashMap<Character, Integer> charcount = new HashMap<Character, Integer>();
+		HashMap<Character, Integer> charcount = new HashMap<>();
 
 		for (char ch : str.toCharArray()) {
 			charcount.put(ch, charcount.getOrDefault(ch, 0) + 1);
@@ -18,14 +18,11 @@ public class CharCount {
 
 		System.out.println(charcount);
 
-		StringBuilder result = new StringBuilder();
-
-		for (Map.Entry<Character, Integer> entry : charcount.entrySet()) {
-			result.append(entry.getKey()).append(entry.getValue());
-		}
-		System.out.println(result);
+//		StringBuilder result = new StringBuilder();
+//
+//		for (Map.Entry<Character, Integer> entry : charcount.entrySet()) {
+//			result.append(entry.getKey()).append(entry.getValue());
+//		}
+//		System.out.println(result);
 	}
 }
-
-//
-//}

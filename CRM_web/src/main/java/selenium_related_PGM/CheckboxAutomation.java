@@ -26,6 +26,17 @@ public class CheckboxAutomation {
 		// Get all checkboxes
 		List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
 
+		
+		// to select all the checkboxes
+//		for (WebElement checkbox : checkboxes) {
+//		    if (!checkbox.isSelected()) { 
+//		    	checkbox.click();
+//		    }else if(checkbox.isSelected()) {
+//		    	System.out.println("defaultly selected checkboxes "+checkbox);
+//		    }    
+//		}  
+	
+		
 		// Print checkbox count
 		System.out.println("Total checkboxes: " + checkboxes.size());
 

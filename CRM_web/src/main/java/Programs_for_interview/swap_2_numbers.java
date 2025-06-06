@@ -14,7 +14,7 @@ public class swap_2_numbers {
 	
 	public static void swap_num_swap_num_without() {
 		int a = 10;
-		int b= 20;
+		int b = 20;
 		
 		a= a+b;
 		b=a-b;

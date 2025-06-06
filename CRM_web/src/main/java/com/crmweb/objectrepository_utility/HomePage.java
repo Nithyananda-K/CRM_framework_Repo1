@@ -1,5 +1,6 @@
 package com.crmweb.objectrepository_utility;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -56,6 +57,11 @@ public class HomePage {
 		Actions act = new Actions(driver);
 		act.moveToElement(adminImg).perform();
 		signOutLink.click();
+	}
+	
+	public void search(String item) {
+		WebElement searchfiled = driver.findElement(By.xpath(" "));
+		searchfiled.sendKeys(item);
 	}
 }
 
